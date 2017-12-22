@@ -1,0 +1,250 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-21 04:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:12
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:13
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:2
+msgid "Last.fm Utilities Setting"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:68
+msgid "Please enter ID."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:69
+msgid "Please use the following shortcode."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/init.php:69
+msgid "Data Error"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/init.php:70
+msgid "Server Error"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:16
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:60
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:25
+msgid "Recent Tracks"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:46
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:62
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:25
+msgid "Top Albums"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:78
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:61
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:25
+msgid "Top Tracks"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:110
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:63
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:25
+msgid "Top Artists"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:13
+msgid "API Key"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:16
+msgid "Input Last.fm API Key"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:17
+msgid ""
+"Please create an API account <a href=\"https://www.last."
+"fm/api/account/create\" target=\"_blank\">here</a> and get the API KEY."
+"(Optical)"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:23
+msgid "Username"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:26
+msgid "Input Last.fm username"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:27
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:71
+msgid "Required"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:33
+msgid "Cache Expiration (seconds)"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:36
+msgid "Input Cache enabled seconds"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:37
+msgid "API Key is needed to change the cache expiration."
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:39
+msgid "Cache Clear"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:52
+msgid "Shortcode Generator"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:56
+msgid "Type:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:70
+msgid "ID:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:80
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:71
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:75
+msgid "Title:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:81
+msgid "Optical"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:90
+msgid "Limit:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:104
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:79
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:79
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:79
+msgid "Period:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:108
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:81
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:81
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:81
+msgid "All time"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:109
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:82
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:82
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:82
+msgid "Last 7 days"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:110
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:83
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:83
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:83
+msgid "Last 30 days"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:111
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:84
+msgid "Last 90 days"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:112
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:85
+msgid "Last 180 days"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:113
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:86
+msgid "Last 365 days"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:120
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:99
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:99
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:99
+msgid "Color:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:123
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:100
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:100
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:100
+msgid "Light"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:124
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:101
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:101
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:101
+msgid "Dark"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:130
+msgid "Link Target:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:134
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:105
+msgid "Opening a link in a new window"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:140
+msgid "Generate"
+msgstr ""
+
+#. Name of the plugin
+msgid "Last.fm Utilities"
+msgstr ""
+
+#. Description of the plugin
+msgid "Last.fm Widget, Shortcode, etc"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/oyakata-s/lastfm-utils"
+msgstr ""
+
+#. Author of the plugin
+msgid "oyakata-s"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://something-25.com"
+msgstr ""

@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Last.fm WP Utilities\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-21 04:20+0000\n"
+"PO-Revision-Date: 2017-12-21 04:21+0000\n"
+"Last-Translator: fujisima <cl.tomokazu.fujisima@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:13
+msgid "API Key"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:17
+msgid ""
+"Please create an API account <a href=\"https://www.last."
+"fm/api/account/create\" target=\"_blank\">here</a> and get the API KEY."
+"(Optical)"
+msgstr ""
+"<a href=\"https://www.last.fm/api/account/create\" target=\"_blank\">ここ</a>"
+"でAPIアカウントを作成し、API KEYを取得してください（任意）"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:23
+msgid "Username"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:70
+msgid "ID:"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:140
+msgid "Generate"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/oyakata-s/lastfm-utils"
+msgstr ""
+
+#. Author of the plugin
+msgid "oyakata-s"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://something-25.com"
+msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:12
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:13
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:2
+msgid "Last.fm Utilities Setting"
+msgstr "Last.fm設定"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:68
+msgid "Please enter ID."
+msgstr "IDを入力してください。"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/admin.php:69
+msgid "Please use the following shortcode."
+msgstr "次のショートコードを使用してください。"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/init.php:69
+msgid "Data Error"
+msgstr "データの取得に失敗しました"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/init.php:70
+msgid "Server Error"
+msgstr "サーバーとの接続に失敗しました"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:16
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:60
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:25
+msgid "Recent Tracks"
+msgstr "最近のトラック"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:46
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:62
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:25
+msgid "Top Albums"
+msgstr "人気アルバム"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:78
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:61
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:25
+msgid "Top Tracks"
+msgstr "人気トラック"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/shortcodes.php:110
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:63
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:17
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:25
+msgid "Top Artists"
+msgstr "トップアーティスト"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:16
+msgid "Input Last.fm API Key"
+msgstr "API Keyを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:26
+msgid "Input Last.fm username"
+msgstr "Usernameを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:27
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:71
+msgid "Required"
+msgstr "必須"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:33
+msgid "Cache Expiration (seconds)"
+msgstr "キャッシュ有効期間（秒）"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:36
+msgid "Input Cache enabled seconds"
+msgstr "キャッシュの有効期間を入力してください。"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:37
+msgid "API Key is needed to change the cache expiration."
+msgstr "キャッシュ有効期間を変更するには、API Keyを設定してください"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:39
+msgid "Cache Clear"
+msgstr "キャッシュクリア"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:52
+msgid "Shortcode Generator"
+msgstr "ショートコードジェネレータ"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:56
+msgid "Type:"
+msgstr "タイプ："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:80
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:71
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:75
+msgid "Title:"
+msgstr "タイトル："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:81
+msgid "Optical"
+msgstr "任意"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:75
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:90
+msgid "Limit:"
+msgstr "表示数："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:104
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:79
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:79
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:79
+msgid "Period:"
+msgstr "期間："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:108
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:81
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:81
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:81
+msgid "All time"
+msgstr "すべての期間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:109
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:82
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:82
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:82
+msgid "Last 7 days"
+msgstr "過去7日間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:110
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:83
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:83
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:83
+msgid "Last 30 days"
+msgstr "過去30日間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:111
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:84
+msgid "Last 90 days"
+msgstr "過去90日間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:112
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:85
+msgid "Last 180 days"
+msgstr "過去180日間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:113
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:86
+msgid "Last 365 days"
+msgstr "過去365日間"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:120
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:84
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:99
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:99
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:99
+msgid "Color:"
+msgstr "カラー："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:123
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:85
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:100
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:100
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:100
+msgid "Light"
+msgstr "ライト"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:124
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:86
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:101
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:101
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:101
+msgid "Dark"
+msgstr "ダーク"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:130
+msgid "Link Target:"
+msgstr "リンクターゲット："
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:134
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:105
+msgid "Opening a link in a new window"
+msgstr "リンクを新しいウィンドウで開く"
+
+#. Name of the plugin
+msgid "Last.fm Utilities"
+msgstr "Last.fm ユーティリティ"
+
+#. Description of the plugin
+msgid "Last.fm Widget, Shortcode, etc"
+msgstr "Last.fm ウィジェット、ショートコードなど"
