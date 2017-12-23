@@ -96,7 +96,7 @@
 .widget_topartists .lfm-link,
 .widget_recenttracks .lfm-link {
 	display: block;
-	padding: 0.5em;
+	padding: 0.5em !important;
 	box-shadow: none;
 }
 .widget_toptracks .lfm-link:hover,

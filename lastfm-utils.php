@@ -22,7 +22,7 @@ define( 'LFMUTILS_TEXTDOMAIN', 'lastfm-utils' );					// テキストドメイン
 
 define( 'LFMUTILS_CACHE_DIR_PATH', LFMUTILS_DIR_PATH.'cache/' );	// キャッシュ用ディレクトリパス
 define( 'LFMUTILS_CACHE_EXPIRE_DEFAULT', 86400 );					// キャッシュ有効期間規定値
-define( 'LFMUTILS_APIKEY_DEFAULT', '4740b418630db2fe2b5ea56efb92c3a4' );	// APIKEY規定値
+define( 'LFMUTILS_APIKEY_DEFAULT', '1bab269306fdc9fdd43df4649a99a109' );	// APIKEY規定値
 
 /*
  * ライブラリ読込
