@@ -4,6 +4,7 @@
  */
 require_once ABSPATH . 'wp-admin/includes/file.php';		// WP_Filesystem使用
 
+if ( ! class_exists( 'CacheUtils' ) ) {
 class CacheUtils {
 
 	static private $instance = null;	// インスタンス
@@ -141,6 +142,7 @@ class CacheUtils {
 		curl_close( $ch );
 		return $result;
 	}
+}
 }
 
 ?>

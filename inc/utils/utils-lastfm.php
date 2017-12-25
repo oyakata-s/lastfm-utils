@@ -2,10 +2,9 @@
 /*
  * lastfmを扱うクラス
  */
-if ( ! class_exists( 'CacheUtils' ) ) {
-	require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-cache.php';	// キャッシュ使用
-}
+require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-cache.php';	// キャッシュ使用
 
+if ( ! class_exists( 'LastFmUtils' ) ) {
 class LastFmUtils {
 
 	static private $instance = null;	// インスタンス
@@ -240,6 +239,7 @@ class LastFmUtils {
 		}
 	}
 
+}
 }
 
 ?>

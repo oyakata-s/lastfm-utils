@@ -2,9 +2,7 @@
 /*
  * 非同期でデータを取得する
  */
-if ( ! class_exists( 'LastFmUtils' ) ) {
-	require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-lastfm.php';	// Lastfm使用
-}
+require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-lastfm.php';	// Lastfm使用
 
 function lfmutils_async_getdata() {
 

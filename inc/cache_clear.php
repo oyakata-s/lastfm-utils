@@ -2,9 +2,7 @@
 /*
  * キャッシュクリア
  */
-if ( ! class_exists( 'CacheUtils' ) ) {
-	require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-cache.php';	// キャッシュ使用
-}
+require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-cache.php';	// キャッシュ使用
 
 function lfmutils_cacheclear() {
 	try {
