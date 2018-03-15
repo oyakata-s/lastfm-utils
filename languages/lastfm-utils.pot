@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 04:20+0000\n"
+"POT-Creation-Date: 2018-01-25 06:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -222,7 +222,7 @@ msgstr ""
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:105
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:105
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:105
-msgid "Opening a link in a new window"
+msgid "Open a link in a new window"
 msgstr ""
 
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:140

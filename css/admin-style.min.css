@@ -1,0 +1,5 @@
+@charset "UTF-8";input[type=text],input[type=number]{width:100%}p.required{font-style:oblique;color:#f00}p.optional{font-style:oblique;color:#00f}
+#shortcode-generator .generator-title{width:80%;min-width:300px;margin:0 auto;padding:1.0rem 0}#shortcode-generator .generator-title:before{font-family:"icomoon";content:"\f013";margin-right:.5em}
+#shortcode-generator .form-table{width:80%;min-width:300px;margin:0 auto;border-collapse:collapse}#shortcode-generator .form-table tr{border:1px solid #aaa}
+#shortcode-generator .form-table th{border-right:1px solid #999;background-color:#ccc;font-weight:bold;text-align:right}#shortcode-generator .message{display:none;margin-left:1.0rem;font-style:oblique;font-size:14px;color:#666}
+#shortcode-generator .message.error{display:inline;color:#f00}#shortcode-generator .message.info{display:inline}#shortcode-output{margin-top:1.0rem;padding:.5rem}

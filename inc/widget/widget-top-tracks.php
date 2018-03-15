@@ -44,7 +44,7 @@ class Widget_Top_Tracks extends WP_Widget {
 			! filter_var( $new_instance['title'], FILTER_DEFAULT ) ) {
 			return false;
 		}
-		if (! filter_var( $new_instance['period'], FILTER_DEFAULT ) ) {
+		if ( ! filter_var( $new_instance['period'], FILTER_DEFAULT ) ) {
 			return false;
 		}
 		if ( ! filter_var( $new_instance['limit'], FILTER_VALIDATE_INT ) ) {
@@ -68,16 +68,16 @@ class Widget_Top_Tracks extends WP_Widget {
 		$limit = empty( $instance['limit'] ) ? '3' : $instance['limit'];
 		$period = empty( $instance['period'] ) ? '7day' : $instance['period'];
 		$color = empty( $instance['color'] ) ? 'dark' : $instance['color'];
-		$color_id = $this->get_field_id( 'color' );
+		$color_id = esc_attr( $this->get_field_id( 'color' ) );
 		$link_target = isset( $instance['linktarget'] ) ? $instance['linktarget'] : '_self';
 		?>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:', 'lastfm-utils' ); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
+			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php _e( 'Title:', 'lastfm-utils' ); ?></label>
+			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'period' ); ?>"><?php _e( 'Period:', 'lastfm-utils' ); ?></label>
-			<select id="<?php echo $this->get_field_id( 'period' ); ?>" name="<?php echo $this->get_field_name( 'period' ); ?>">
+			<label for="<?php echo esc_attr( $this->get_field_id( 'period' ) ); ?>"><?php _e( 'Period:', 'lastfm-utils' ); ?></label>
+			<select id="<?php echo esc_attr( $this->get_field_id( 'period' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'period' ) ); ?>">
 				<option value="overall" <?php echo ( $period === 'overall' ) ? 'selected' : ''; ?>><?php _e( 'All time', 'lastfm-utils' ); ?></option>
 				<option value="7day" <?php echo ( $period === '7day' ) ? 'selected' : ''; ?>><?php _e( 'Last 7 days', 'lastfm-utils' ); ?></option>
 				<option value="1month" <?php echo ( $period === '1month' ) ? 'selected' : ''; ?>><?php _e( 'Last 30 days', 'lastfm-utils' ); ?></option>
@@ -87,8 +87,8 @@ class Widget_Top_Tracks extends WP_Widget {
 			</select>
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id( 'limit' ); ?>"><?php _e( 'Limit:', 'lastfm-utils' ); ?></label>
-			<select id="<?php echo $this->get_field_id( 'limit' ); ?>" name="<?php echo $this->get_field_name( 'limit' ); ?>">
+			<label for="<?php echo esc_attr( $this->get_field_id( 'limit' ) ); ?>"><?php _e( 'Limit:', 'lastfm-utils' ); ?></label>
+			<select id="<?php echo esc_attr( $this->get_field_id( 'limit' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'limit' ) ); ?>">
 				<option value="1" <?php echo ( $limit == '1' ) ? 'selected' : ''; ?>>1</option>
 				<option value="3" <?php echo ( $limit == '3' ) ? 'selected' : ''; ?>>3</option>
 				<option value="5" <?php echo ( $limit == '5' ) ? 'selected' : ''; ?>>5</option>
@@ -97,12 +97,12 @@ class Widget_Top_Tracks extends WP_Widget {
 		</p>
 		<p>
 			<?php _e( 'Color:', 'lastfm-utils' ); ?>
-			<input type="radio" id="<?php echo $color_id; ?>-light" name="<?php echo $this->get_field_name( 'color' ); ?>" value="light" <?php echo ( $color !== 'dark' ) ? 'checked' : ''; ?> /><label for="<?php echo $color_id; ?>-light"><?php _e( 'Light', 'lastfm-utils' ); ?></label>
-			<input type="radio" id="<?php echo $color_id; ?>-dark" name="<?php echo $this->get_field_name( 'color' ); ?>" value="dark" <?php echo ( $color === 'dark' ) ? 'checked' : ''; ?> /><label for="<?php echo $color_id; ?>-dark"><?php _e( 'Dark', 'lastfm-utils' ); ?></label>&emsp;
+			<input type="radio" id="<?php echo $color_id; ?>-light" name="<?php echo esc_attr( $this->get_field_name( 'color' ) ); ?>" value="light" <?php echo ( $color !== 'dark' ) ? 'checked' : ''; ?> /><label for="<?php echo $color_id; ?>-light"><?php _e( 'Light', 'lastfm-utils' ); ?></label>
+			<input type="radio" id="<?php echo $color_id; ?>-dark" name="<?php echo esc_attr( $this->get_field_name( 'color' ) ); ?>" value="dark" <?php echo ( $color === 'dark' ) ? 'checked' : ''; ?> /><label for="<?php echo $color_id; ?>-dark"><?php _e( 'Dark', 'lastfm-utils' ); ?></label>&emsp;
 		</p>
 		<p>
-			<input type="checkbox" id="<?php echo $this->get_field_id( 'linktarget' ); ?>" name="<?php echo $this->get_field_name( 'linktarget' ); ?>" value="_blank" <?php checked( ( empty( $link_target ) || $link_target !== '_self' ), 1 ); ?> />
-			<label for="<?php echo $this->get_field_id( 'linktarget' ); ?>"><?php _e( 'Opening a link in a new window', 'lastfm-utils' ); ?></label>&emsp;
+			<input type="checkbox" id="<?php echo esc_attr( $this->get_field_id( 'linktarget' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'linktarget' ) ); ?>" value="_blank" <?php checked( ( empty( $link_target ) || $link_target !== '_self' ), 1 ); ?> />
+			<label for="<?php echo esc_attr( $this->get_field_id( 'linktarget' ) ); ?>"><?php _e( 'Open a link in a new window', 'lastfm-utils' ); ?></label>&emsp;
 		</p>
 		<?php
 	}

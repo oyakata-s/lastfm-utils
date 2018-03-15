@@ -2,6 +2,7 @@
 	<h2><?php echo '<i class="fa-lastfm2"></i>&nbsp;'.__( 'Last.fm Utilities Setting', 'lastfm-utils' ); ?></h2>
 	<form method="POST" action="options.php">
 <?php
+		global $lfmutils;
 		settings_fields( 'lfmutils_settings_group' );
 		do_settings_sections( 'lfmutils_settings_group' );
 ?>
@@ -13,7 +14,7 @@
 					<label for="lfmutils_apikey"><?php _e( 'API Key', 'lastfm-utils' ); ?></label>
 				</th>
 				<td><fieldset>
-					<input type="text" name="lfmutils_apikey" id="lfmutils_apikey" placeholder="<?php _e( 'Input Last.fm API Key', 'lastfm-utils' ); ?>" value="<?php echo get_lfmutils_option( 'lfmutils_apikey' ); ?>">
+					<input type="text" name="lfmutils_apikey" id="lfmutils_apikey" placeholder="<?php _e( 'Input Last.fm API Key', 'lastfm-utils' ); ?>" value="<?php echo esc_attr( $lfmutils->getOption( 'lfmutils_apikey', '' ) ); ?>">
 					<p class="description"><?php _e( 'Please create an API account <a href="https://www.last.fm/api/account/create" target="_blank">here</a> and get the API KEY.(Optical)', 'lastfm-utils' ); ?></p>
 					</fieldset>
 				</td>
@@ -23,7 +24,7 @@
 					<label for="lfmutils_username"><?php _e( 'Username', 'lastfm-utils' ); ?></label>
 				</th>
 				<td><fieldset>
-					<input type="text" name="lfmutils_username" id="lfmutils_username" placeholder="<?php _e( 'Input Last.fm username', 'lastfm-utils' ); ?>" value="<?php echo get_lfmutils_option( 'lfmutils_username' ); ?>">
+					<input type="text" name="lfmutils_username" id="lfmutils_username" placeholder="<?php _e( 'Input Last.fm username', 'lastfm-utils' ); ?>" value="<?php echo esc_attr( $lfmutils->getOption( 'lfmutils_username' ) ); ?>">
 					<p class="description required"><?php _e( 'Required', 'lastfm-utils' ); ?></p>
 					</fieldset>
 				</td>
@@ -33,7 +34,7 @@
 					<label for="lfmutils_cache_expire"><?php _e( 'Cache Expiration (seconds)', 'lastfm-utils' ); ?></label>
 				</th>
 				<td><fieldset>
-					<input type="number" name="lfmutils_cache_expire" id="lfmutils_cache_expire" placeholder="<?php _e( 'Input Cache enabled seconds', 'lastfm-utils' ); ?>" value="<?php echo get_lfmutils_option( 'lfmutils_cache_expire', 86400 ); ?>">
+					<input type="number" name="lfmutils_cache_expire" id="lfmutils_cache_expire" placeholder="<?php _e( 'Input Cache enabled seconds', 'lastfm-utils' ); ?>" value="<?php echo esc_attr( $lfmutils->getOption( 'lfmutils_cache_expire' ) ); ?>">
 					<p class="description"><?php _e( 'API Key is needed to change the cache expiration.', 'lastfm-utils' ); ?></p>
 					<p>
 						<input type="button" class="button-primary" name="cache_clear" id="cache_clear" value="<?php _e( 'Cache Clear', 'lastfm-utils' ); ?>" />
@@ -131,7 +132,7 @@
 				</th>
 				<td><fieldset>
 					<input type="checkbox" id="shortcode-linktarget" name="shortcode-linktarget" value="_blank" />
-					<label for="shortcode-linktarget"><?php _e( 'Opening a link in a new window', 'lastfm-utils' ); ?></label>&emsp;
+					<label for="shortcode-linktarget"><?php _e( 'Open a link in a new window', 'lastfm-utils' ); ?></label>&emsp;
 					</fieldset>
 				</td>
 			</tr>

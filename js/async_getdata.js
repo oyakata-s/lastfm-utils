@@ -10,7 +10,8 @@ function load_lastfmdata(widget_id, type, link_target, limit, period = null) {
 		type: 'POST',
 		url: ajaxurl,
 		data: {
-			'action': 'lfmutils_async_getdata',
+			'action': 'lfmutils_getdata',
+			'nonce': 'lfmutils_getdata',
 			'widgetid': widget_id,
 			'type': type,
 			'limit': limit,

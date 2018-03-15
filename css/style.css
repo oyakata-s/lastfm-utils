@@ -91,6 +91,14 @@
 	margin: 0;
 	padding: 0;
 }
+.widget_toptracks .widget-title:before,
+.widget_topalbums .widget-title:before,
+.widget_topartists .widget-title:before,
+.widget_recenttracks .widget-title:before {
+	font-family: "icomoon";
+	content: "\eacc";
+	margin-right: 0.5em;
+}
 .widget_toptracks .lfm-link,
 .widget_topalbums .lfm-link,
 .widget_topartists .lfm-link,

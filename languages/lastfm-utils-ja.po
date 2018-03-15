@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Last.fm WP Utilities\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 04:20+0000\n"
-"PO-Revision-Date: 2017-12-21 04:21+0000\n"
+"POT-Creation-Date: 2018-01-25 06:52+0000\n"
+"PO-Revision-Date: 2018-01-25 06:53+0000\n"
 "Last-Translator: fujisima <cl.tomokazu.fujisima@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -17,15 +17,6 @@ msgstr ""
 msgid "API Key"
 msgstr ""
 
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:17
-msgid ""
-"Please create an API account <a href=\"https://www.last."
-"fm/api/account/create\" target=\"_blank\">here</a> and get the API KEY."
-"(Optical)"
-msgstr ""
-"<a href=\"https://www.last.fm/api/account/create\" target=\"_blank\">ここ</a>"
-"でAPIアカウントを作成し、API KEYを取得してください（任意）"
-
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:23
 msgid "Username"
 msgstr ""
@@ -33,6 +24,14 @@ msgstr ""
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:70
 msgid "ID:"
 msgstr ""
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:134
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:90
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:105
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:105
+msgid "Open a link in a new window"
+msgstr "リンクを新しいウィンドウで開く"
 
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:140
 msgid "Generate"
@@ -103,6 +102,15 @@ msgstr "トップアーティスト"
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:16
 msgid "Input Last.fm API Key"
 msgstr "API Keyを入力してください"
+
+#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:17
+msgid ""
+"Please create an API account <a href=\"https://www.last."
+"fm/api/account/create\" target=\"_blank\">here</a> and get the API KEY."
+"(Optical)"
+msgstr ""
+"<a href=\"https://www.last.fm/api/account/create\" target=\"_blank\">ここ</a>"
+"でAPIアカウントを作成し、API KEYを取得してください（任意）"
 
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:26
 msgid "Input Last.fm username"
@@ -233,14 +241,6 @@ msgstr "ダーク"
 #: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:130
 msgid "Link Target:"
 msgstr "リンクターゲット："
-
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/parts/admin-lfmutils.php:134
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-recent-tracks.php:90
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-albums.php:105
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-artists.php:105
-#: C:/Users/user/git/wordpress/wp-content/plugins/lastfm-utils/inc/widget/widget-top-tracks.php:105
-msgid "Opening a link in a new window"
-msgstr "リンクを新しいウィンドウで開く"
 
 #. Name of the plugin
 msgid "Last.fm Utilities"

@@ -2,7 +2,7 @@
 /*
  * lastfmを扱うクラス
  */
-require_once LFMUTILS_DIR_PATH . 'inc/utils/utils-cache.php';	// キャッシュ使用
+require_once LFMUTILS_DIR_PATH . 'inc/utils/class-cache-utils.php';	// キャッシュ使用
 
 if ( ! class_exists( 'LastFmUtils' ) ) {
 class LastFmUtils {
@@ -16,9 +16,9 @@ class LastFmUtils {
 	/*
 	 * コンストラクタ
 	 */
-	public function __construct( $username, $api_key = null, $cache_dir = null, $cache_expire = null ) {
+	public function __construct( $username, $api_key, $cache_dir = null, $cache_expire = null ) {
 		if ( empty( $username ) || empty( $api_key ) ) {
-			throw new Exception( 'LastFmUtils construction failed.' );
+			throw new Exception( 'LastFmUtils construction failed.(username:' . $username . ',apikey:' . $api_key . ')' );
 		}
 		try {
 			$this->username = $username;
@@ -32,7 +32,7 @@ class LastFmUtils {
 	/*
 	 * インスタンスを取得
 	 */
-	public static function getInstance( $username, $api_key = null, $cache_dir = null, $cache_expire = null ) {
+	public static function getInstance( $username, $api_key, $cache_dir = null, $cache_expire = null ) {
 		if ( empty( $instance ) ) {
 			try {
 				$instance = new LastfmUtils( $username, $api_key, $cache_dir, $cache_expire );
