@@ -64,10 +64,6 @@ class LfmUtils extends  FtBase {
 		add_action( 'wp_head', array( $this, 'addHead' ) );
 		add_action( 'wp_print_styles', array( $this, 'enqueueStyles' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueueScripts' ) );
-
-		// add_action( 'wp_ajax_lfmutils_async_getdata', 'lfmutils_async_getdata' );
-		// add_action( 'wp_ajax_nopriv_lfmutils_async_getdata', 'lfmutils_async_getdata' );
-		add_action( 'wp_ajax_lfmutils_cacheclear', 'lfmutils_cacheclear' );	// キャッシュクリア用
 	}
 
 	/* 
