@@ -3,7 +3,7 @@
  * Plugin Name: Last.fm Utilities
  * Plugin URI: https://github.com/oyakata-s/lastfm-utils
  * Description: Last.fm Widget, Shortcode, etc
- * Version: 0.2
+ * Version: 0.2.2
  * Author: oyakata-s
  * Author URI: https://something-25.com
  * License: GNU General Public License v2 or later
@@ -35,6 +35,7 @@ require_once LFMUTILS_DIR_PATH . 'inc/ajax/class-getlastfm-ajax.php';	// 非同�
 require_once LFMUTILS_DIR_PATH . 'inc/ajax/class-cacheclear-ajax.php';	// キャッシュクリア用
 
 require_once LFMUTILS_DIR_PATH . 'inc/base/class-ft-base.php';			// 初期化関連
+require_once LFMUTILS_DIR_PATH . 'inc/base/class-ft-utils.php';			// ユーティリティ関連
 
 class LfmUtils extends  FtBase {
 
@@ -71,7 +72,7 @@ class LfmUtils extends  FtBase {
 	 */
 	public function activation() {
 		// キャッシュディレクトリの準備
-		$this->checkDirectory( LFMUTILS_CACHE_DIR_PATH );
+		FtUtils::checkDirectory( LFMUTILS_CACHE_DIR_PATH );
 	}
 
 	/* 
@@ -79,7 +80,7 @@ class LfmUtils extends  FtBase {
 	 */
 	public function deactivation() {
 		// キャッシュディレクトリの削除
-		$this->removeDirectory( LFMUTILS_CACHE_DIR_PATH );
+		FtUtils::removeDirectory( LFMUTILS_CACHE_DIR_PATH );
 	}
 
 	/* 
@@ -123,31 +124,6 @@ class LfmUtils extends  FtBase {
 				'server_error_message' => __( 'Server Error', 'lastfm-utils' ),
 				'default_image' => LFMUTILS_DIR_URL . 'img/noimage.jpg'
 			) );
-	}
-
-	/* 
-	 * ディレクトリ存在チェック
-	 */
-	private function checkDirectory( $dir ) {
-		if ( ! file_exists( $dir ) ) {
-			return wp_mkdir_p( $dir );
-		}
-
-		return false;
-	}
-
-	/* 
-	 * ディレクトリ削除
-	 */
-	private function removeDirectory( $dir ) {
-		if ( file_exists( $dir ) ) {
-			if ( WP_Filesystem() ) {
-				global $wp_filesystem;
-				return $wp_filesystem->delete( $dir, true );
-			}
-		}
-
-		return false;
 	}
 
 }
